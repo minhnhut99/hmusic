@@ -1,6 +1,5 @@
 import { GrNext, GrPrevious } from "react-icons/gr";
 import Logo from "../../../images/hMusic.png";
-import "./Header.scss";
 const Header = () => {
   return (
     <div className="header">
@@ -8,6 +7,7 @@ const Header = () => {
         <img src={Logo} alt="Logo" />
       </div>
       <div className="pre-next-ctl">
+        x
         <span className="pre">
           <GrPrevious />
         </span>
