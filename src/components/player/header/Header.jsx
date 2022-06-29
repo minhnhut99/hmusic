@@ -1,8 +1,6 @@
-import React from "react";
-import "./Header.scss";
+import { GrNext, GrPrevious } from "react-icons/gr";
 import Logo from "../../../images/hMusic.png";
-import { GrPrevious } from "react-icons/gr";
-import { GrNext } from "react-icons/gr";
+import "./Header.scss";
 const Header = () => {
   return (
     <div className="header">

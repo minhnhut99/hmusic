@@ -1,0 +1,33 @@
+.menu {
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  li {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    cursor: pointer;
+    transition: linear 0.2s;
+    &:hover {
+      .icon,
+      .menu-home-text {
+        color: white;
+      }
+    }
+    span {
+      color: #b3b3b3;
+      font-weight: 600;
+      transition: linear 0.2s;
+    }
+    .icon {
+      font-size: 25px;
+      margin-right: 15px;
+      transition: linear 0.2s;
+    }
+  }
+}

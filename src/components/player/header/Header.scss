@@ -1,8 +1,7 @@
 .header {
-  position: fixed;
-  width: 100%;
+  position: sticky;
   height: 70px;
-  background-color: aqua;
+  background-color: #000000;
   top: 0;
   z-index: 100;
   display: flex;
