@@ -6,6 +6,7 @@ import Player from "./components/player/Player";
 import { getTokenFromUrl } from "./services/auth";
 function App() {
   const spotify = new SpotifyWebApi();
+  console.log("spotify", spotify);
   const [token, setToken] = useState(null);
 
   useEffect(() => {
